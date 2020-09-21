@@ -23,3 +23,5 @@
 > `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
 7. Right-click the shortcut files and select Properties > Change Icon > Browse > select the corresponding ico file
 8. Optionally right-click these items in Start menu and select 'Pin to Start"
+
+![ScreenShot](startmenu-screenshot.gif)
