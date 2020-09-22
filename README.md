@@ -12,16 +12,20 @@
   
       `jupyter notebook --generate-config`
     
-  - edit C:\Users\username\.jupyter\jupyter_notebook_config.py
-  - uncomment and update the line below
+  - this generates a new file `C:\Users\username\\.jupyter\jupyter_notebook_config.py`
+  - edit this file and uncomment and update the line below (use your preferred location here, remember to use double backslashes for path)
   
       `c.NotebookApp.notebook_dir = 'D:\\dev\\code'`
 
-4. Place these two batch files in a local folder -  `Launch Jupyter Lab.bat` & `Launch Jupyter Notebook.bat` - along with the icon files
+4. Place these two batch files in a local folder -  `Launch Jupyter Lab.bat` & `Launch Jupyter Notebook.bat` - along with the icon files (available in the repo)
 5. Right-click them and "Send to > Desktop (create shortcut)"
 6. Move these shortcut files to the Start Menu folder
 > `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
-7. Right-click the shortcut files and select Properties > Change Icon > Browse > select the corresponding ico file
-8. Optionally right-click these items in Start menu and select 'Pin to Start"
+7. Right-click the shortcut files and select Properties > Advanced and select the checkbox 'Run as administrator'
+
+![Properties](properties-screenshot.gif)
+
+8. Also select Properties > Change Icon > Browse > select the corresponding ico file
+9. Optionally right-click these items in Start menu and select 'Pin to Start"
 
 ![ScreenShot](startmenu-screenshot.gif)
