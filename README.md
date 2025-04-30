@@ -17,9 +17,9 @@
   
       `c.NotebookApp.notebook_dir = 'D:\\dev\\code'`
 
-4. Place these two batch files in a local folder -  `Launch Jupyter Lab.bat` & `Launch Jupyter Notebook.bat` - along with the icon files (available in the repo)
-5. Right-click them and "Send to > Desktop (create shortcut)"
-6. Move these shortcut files to the Start Menu folder
+4. Take these two batch files from this git repo  -  `Launch Jupyter Lab.bat` & `Launch Jupyter Notebook.bat` (along with the icon files) - and place them in any local folder of your choice. (You can alternatively simply clone this git repo down and use that folder.)
+5. Right-click each of them them and select "Send to > Desktop (create shortcut)". This creates new shortcuts on your desktop.
+6. Move these shortcut files from your desktop to the Start Menu folder
 > `C:\ProgramData\Microsoft\Windows\Start Menu\Programs`
 7. Right-click the shortcut files and select Properties > Advanced and select the checkbox 'Run as administrator'
 
